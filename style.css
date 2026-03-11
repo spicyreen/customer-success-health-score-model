@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 50px auto;
   padding: 20px;
 }
@@ -85,6 +85,10 @@ button:hover {
   font-weight: bold;
 }
 
+.small-value {
+  font-size: 18px;
+}
+
 .final-score-section {
   margin-top: 24px;
   padding-top: 20px;
@@ -95,6 +99,12 @@ button:hover {
   font-size: 22px;
   margin: 12px 0;
   font-weight: bold;
+}
+
+.notes-line {
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .status-pill {
