@@ -1,0 +1,11 @@
+company_name,csm_name,segment,arr,renewal_date,sla_score,incident_score,csat_score,adoption_score,nps_score,open_tickets,executive_engagement,health_notes
+Acme Corp,Shereen Roche,Enterprise,125000,2026-09-30,96,92,94,91,62,1,High,Strong product usage and positive executive alignment
+Northstar Health,Avery Chen,Mid-Market,72000,2026-07-15,88,83,86,84,41,3,Medium,Good usage but support volume increased this quarter
+BluePeak Systems,Jordan Lee,Enterprise,210000,2026-05-20,79,74,77,72,18,6,Low,Adoption is slipping and exec sponsor has gone quiet
+Summit Retail,Taylor Morgan,SMB,28000,2026-11-10,91,89,92,88,55,2,Medium,Healthy account with room to expand adoption
+Vertex Financial,Morgan Patel,Enterprise,180000,2026-06-30,73,69,71,68,12,7,Low,Multiple incidents and weak user engagement
+BrightPath Tech,Cameron Diaz,Mid-Market,95000,2026-08-18,94,90,89,93,58,1,High,Stable account with strong champion support
+Luma Logistics,Casey Nguyen,Mid-Market,67000,2026-10-05,84,80,82,79,34,4,Medium,Needs workflow optimization and admin retraining
+Evergreen Bio,Riley Brooks,Enterprise,240000,2026-04-25,69,65,70,66,10,8,Low,At-risk renewal due to low adoption and service concerns
+Crestline Media,Jamie Foster,SMB,32000,2026-12-01,90,87,88,85,47,2,Medium,Steady account with decent usage and good sentiment
+Nimbus Security,Alex Rivera,Enterprise,195000,2026-05-12,77,72,75,70,22,5,Low,Needs executive outreach and success plan reset
