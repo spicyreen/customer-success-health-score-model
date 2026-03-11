@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Success Health Score Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Customer Success Health Score Dashboard</h1>
+    <p class="subtitle">
+      Select a company to view its health score based on SLA, Incident, CSAT, and Adoption.
+    </p>
+
+    <div class="card">
+      <label for="companySelect">Choose a company</label>
+      <select id="companySelect">
+        <option value="">-- Select a company --</option>
+      </select>
+
+      <button id="calculateBtn">Show Health Score</button>
+    </div>
+
+    <div id="results" class="card hidden">
+      <h2 id="companyName"></h2>
+
+      <div class="metrics">
+        <div class="metric-box">
+          <span class="metric-label">SLA Score</span>
+          <span id="slaScore" class="metric-value"></span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Incident Score</span>
+          <span id="incidentScore" class="metric-value"></span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">CSAT Score</span>
+          <span id="csatScore" class="metric-value"></span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">Adoption Score</span>
+          <span id="adoptionScore" class="metric-value"></span>
+        </div>
+      </div>
+
+      <div class="final-score-section">
+        <p class="score-line">
+          Health Score: <span id="healthScore"></span>
+        </p>
+        <p class="score-line">
+          Status: <span id="healthStatus" class="status-pill"></span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
