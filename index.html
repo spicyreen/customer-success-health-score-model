@@ -10,7 +10,7 @@
   <div class="container">
     <h1>Customer Success Health Score Dashboard</h1>
     <p class="subtitle">
-      Select a company to view its health score based on SLA, Incident, CSAT, and Adoption.
+      Select a company to view realistic Customer Success metrics and calculate overall account health.
     </p>
 
     <div class="card">
@@ -27,20 +27,58 @@
 
       <div class="metrics">
         <div class="metric-box">
+          <span class="metric-label">CSM</span>
+          <span id="csmName" class="metric-value small-value"></span>
+        </div>
+
+        <div class="metric-box">
+          <span class="metric-label">Segment</span>
+          <span id="segment" class="metric-value small-value"></span>
+        </div>
+
+        <div class="metric-box">
+          <span class="metric-label">ARR</span>
+          <span id="arr" class="metric-value small-value"></span>
+        </div>
+
+        <div class="metric-box">
+          <span class="metric-label">Renewal Date</span>
+          <span id="renewalDate" class="metric-value small-value"></span>
+        </div>
+
+        <div class="metric-box">
           <span class="metric-label">SLA Score</span>
           <span id="slaScore" class="metric-value"></span>
         </div>
+
         <div class="metric-box">
           <span class="metric-label">Incident Score</span>
           <span id="incidentScore" class="metric-value"></span>
         </div>
+
         <div class="metric-box">
           <span class="metric-label">CSAT Score</span>
           <span id="csatScore" class="metric-value"></span>
         </div>
+
         <div class="metric-box">
           <span class="metric-label">Adoption Score</span>
           <span id="adoptionScore" class="metric-value"></span>
+        </div>
+
+        <div class="metric-box">
+          <span class="metric-label">NPS Score</span>
+          <span id="npsScore" class="metric-value"></span>
+        </div>
+
+        <div class="metric-box">
+          <span class="metric-label">Open Tickets</span>
+          <span id="openTickets" class="metric-value"></span>
+        </div>
+
+        <div class="metric-box">
+          <span class="metric-label">Executive Engagement</span>
+          <span id="executiveEngagement" class="metric-value small-value"></span>
         </div>
       </div>
 
@@ -50,6 +88,9 @@
         </p>
         <p class="score-line">
           Status: <span id="healthStatus" class="status-pill"></span>
+        </p>
+        <p class="notes-line">
+          <strong>Health Notes:</strong> <span id="healthNotes"></span>
         </p>
       </div>
     </div>
